@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+  <h1>BMI Calculator</h1>
+
+<Div class="container">
+    <div class="left">
+    User Data:
+    <hr>
+    <br><br>
+    <input type="text" id="usersName" placeholder="Name" required>
+    <button id="addName">Add</button>
+   
+    <br><br>
+    <input type="text" id="age" placeholder="Age" required>
+    <button id="addAge">Add</button>
+    <br>
+   <br>
+    <input type="text" id="userHeight" placeholder="height">
+    <button id="addHeight">Add</button>
+    <br>
+    <br>
+    <input type="text" id="weight" placeholder="Weight">
+    <button id="addWeight">Add</button>
+    <br>
+    <br>
+    <button id="bmiButton">BMI</button>
+    <button id="bodyFat">Body Fat</button>
+    <label for="sex">Sex:</label>
+    <select id="sex">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <br>
+    <br>
+<div class="container2">
+<div class="userData">
+    <div class="object" id="object"></div>
+    <br>
+    <div class="storeAge" id="storeAge"></div>
+    <br>
+    
+    <div class="storeHeight" id="storeHeight"></div>
+    <br>
+    
+    <div class="storeWeight" id="storeWeight"></div>
+    <br>
+    <div class="object2" id="object2"></div>
+    <br>
+    <div class="statement" id="statement"></div>
+   </div>
+<div class="picture">
+</div>
+</div>
+<img src="Body.png" alt="">
+  
+</div>
+<div class="right">
+<div class="report" id="report">Report</div>
+<hr>
+<div class="bmiHeader">Body Mass Index Value:</div>
+<div class="bmi" id="bmi"></div>
+<br>
+<div class="bmiHeader">Body Fat Value:</div>
+<div class="bdyFat" id="bdyFat">
+</div>
+
+<br>
+<br>
+<button class="print" id="printSum">Print Summary</button>
+<br>
+<br>
+<div class="bmiHeader" id="summaryHeader">
+Summary:
+</div>
+<div class="summary" id="summary">
+ 
+<div id="bmiMessage"></div>
+</div>
+<div id="bmiMessages"></div>
+</div>
+<div class="Picture">
+    <div> <img src="C:\Users\TRDFRG\Desktop\Simple-js-app\Calculator\BMI.png" id="bmiIndex" alt=""></div>
+</div>
+</Div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
