@@ -1,0 +1,389 @@
+body{
+    text-shadow: 1px 1px 3px rgba(14, 13, 14, 0.601),
+                 2px 2px 3px rgba(14, 13, 14, 0.601),
+                 3px 3px 4px rgba(14, 13, 14, 0.601);
+    font-family: 'Dosis', sans-serif;
+    background-image: url('shutterstock_425076346.jpg');
+    background-size: cover;
+    color: chartreuse;
+    background-color: rgb(31, 30, 30);
+}
+
+.array1{
+    display: flex;
+    flex-direction: column;
+    width: 200px fit-content;
+    height: 30px fit-content;
+    border: 1px solid red;
+}
+
+.array2{
+    display: flex;
+    flex-direction: column;
+    width: 200px fit-content;
+    height: 30px fit-content;
+    border: 1px solid red;
+}
+
+.object{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+    color: silver;
+    border: 1px solid rgb(163, 0, 0);
+    background-color: rgba(22, 21, 21, 0.7);
+    width: 150px;
+    height: 25px;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+       
+}
+.storeAge{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    Margin-left: 50px;
+    color: silver;
+    border: 1px solid rgb(163, 0, 0);
+    background-color: rgba(22, 21, 21, 0.7);
+    width: 150px;
+    height: 25px;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+       
+}
+.storeWeight{
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    Margin-left: 50px;
+    color: silver;
+    border: 1px solid rgb(163, 0, 0);
+    background-color: rgba(22, 21, 21, 0.7);
+    width: 150px;
+    height: 25px;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+       
+}
+
+.storeHeight{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    Margin-left: 50px;
+    color: silver;
+    border: 1px solid rgb(163, 0, 0);
+    background-color: rgba(22, 21, 21, 0.7);
+    width: 150px;
+    height: 25px;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+       
+}
+
+.bmi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    Margin-left: 50px;
+    color: silver;
+    border: 1px solid rgb(145, 0, 0);
+    background-color: rgba(58, 56, 56, 0.7);
+    width: 300px;
+    height: 50px;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+       
+}
+#bmiIndex{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+    transition: 1s ease-in-out;
+    transform: scale(34.);
+       
+}
+
+#bmiIndex:hover{
+    filter: drop-shadow(12px 12px 34px #07078b8c);
+}
+
+
+
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+select{
+    text-shadow: 1px 1px 3px rgba(14, 13, 14, 0.601),
+    2px 2px 3px rgba(14, 13, 14, 0.601),
+    3px 3px 4px rgba(14, 13, 14, 0.601);
+    color:orangered;
+    background-color: rgba(22, 21, 21, 0.7);
+}
+
+input {
+    text-shadow: 1px 1px 3px rgba(14, 13, 14, 0.601),
+    2px 2px 3px rgba(14, 13, 14, 0.601),
+    3px 3px 4px rgba(14, 13, 14, 0.601);
+    font-family: 'Dosis', sans-serif;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: chartreuse;
+    width: 200px;
+    height: 30px;
+    border: 1px inset rgba(161, 1, 1, 0.7);
+    color: chartreuse;
+    background-color:rgba(22, 21, 21, 0.7);
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+  
+}
+hr{
+    border: 1px inset rgba(116, 109, 109, 0.7);
+}
+
+button {
+    text-shadow: 1px 1px 3px rgba(14, 13, 14, 0.601),
+    2px 2px 3px rgba(14, 13, 14, 0.601),
+    3px 3px 4px rgba(14, 13, 14, 0.601);
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+    width: 50px auto;
+    height: 30px;
+    color: rgb(241, 241, 241);
+    border: 1px outset rgb(65, 63, 63);
+    background-color: rgba(14, 13, 13, 0.7);
+    transition: .6s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 3px 3px 5px red;
+}
+
+#bmiButton{
+    margin-left: 50px;
+    
+    
+}
+
+.bmiHeader{
+    background-color: rgba(14, 13, 14, 0.601);
+    text-align: center;
+    margin-left: 30%;
+    width: 200px;
+    border: 1px solid rgb(109, 6, 6);
+    margin-bottom: 8px;
+}
+
+.container {
+     display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(148, 137, 137);
+}
+
+.left{
+    background-image: url('iStock-1129637376.jpg');
+    background-size: cover;
+    width: 350px;
+    border: 1px inset rgb(26, 25, 25);
+    box-shadow: 1px 1px 2px black,
+    2px 2px 3px black,
+    3px 3px 6px black;
+}
+.right{
+    text-align: center;
+    width: 400px;
+    border: 1px solid rgb(20, 19, 19);
+}
+
+.bdyFat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-left: 15%;
+    color: silver;
+    border: 1px solid rgb(145, 0, 0);
+    background-color: rgba(58, 56, 56, 0.7);
+    width: 300px;
+    height: 50px;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+       
+}
+
+.summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    color: silver;
+    border: 1px solid rgb(145, 0, 0);
+    background-color: rgba(58, 56, 56, 0.7);
+    width: 300px;
+    height: 50px;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+       
+}
+
+.print{
+    font-family: 'Dosis', sans-serif;
+margin-left:30px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.userData{
+    width: 175px;
+}
+
+
+#bmiIndex{
+    cursor:crosshair;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 45px;
+    width: 520px;
+}
+
+#bmiIndexEnlarged{
+    cursor:crosshair;
+    position: fixed;
+    top: 30 px;
+    left: 200px;
+    margin-left: 5px;
+    
+    width: 900px;
+    height: 700px;
+    filter: drop-shadow(30px 10px 34px #b3b3b3);
+}
